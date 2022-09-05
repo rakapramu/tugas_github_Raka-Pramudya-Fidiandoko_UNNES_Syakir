@@ -1,0 +1,35 @@
+body {
+    background-color: #411530;
+    margin: 80px;
+    padding: 40px;
+    border-style: double;
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    border-radius: 70px;
+}
+
+hr{
+    border-color:rgb(139, 117, 235);
+    border-width: 3px;
+}
+
+legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+fieldset {
+    border-style: dashed;
+    border:2px solid DodgerBlue;
+}
+
+ol{
+    list-style-image: url("../image/nyanyi.gif");
+}

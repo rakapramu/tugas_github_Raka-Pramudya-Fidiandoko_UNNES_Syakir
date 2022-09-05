@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="">
+        <table border="0" width="30%" align="center" cellspacing="15" cellpadding="5">
+            <tr bgcolor="gray">
+                <td colspan="2" align="center">Buku Tamu</td>
+            </tr>
+            <tr>
+                <td width="25%"><label for=""> Nama</label></td>
+                <td><input type="text" placeholder="Nama Lengkap" size="40"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" placeholder="Jhon@gmail.com" size="40"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <input type="radio" id="renang" name="fav_language" value="Pria">
+                    <label for="html">Pria</label>
+                    <input type="radio" id="renang" name="fav_language" value="Perempuan">
+                    <label for="html">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top"><label for="">Hobby</label></td>
+                <td>
+                    <input type="checkbox" id="renang" name="fav_language" value="Renang">
+                    <label for="html">Renang</label><br>
+                    <input type="checkbox" id="sepakbola" name="fav_language" value="Sepakbola">
+                    <label for="html">Sepakbola</label><br>
+                    <input type="checkbox" id="bersepeda" name="fav_language" value="Bersepeda">
+                    <label for="html">Bersepeda</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Pendidikan</td>
+                <td>
+                    <select name="pendidikan" id="pendidikn">
+                        <option value="" hidden>--Please choose an option--</option>
+                        <option value="sd">SD</option>
+                        <option value="smp">SMP</option>
+                        <option value="sma">SMA</option>
+                        <option value="kuliah">KULIAH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar</td>
+                <td><textarea name="" id="" cols="30" rows="5" placeholder="Komentar Anda"></textarea></td>
+            </tr>
+            <tr bgcolor="gray">
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
